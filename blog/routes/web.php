@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PublicFiles\PublicBlogController;
+use App\Http\Controllers\PublicFiles\GlowController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,6 +16,7 @@ use App\Http\Controllers\PublicFiles\PublicBlogController;
 */
 
 Route::get('/', [PublicBlogController::class, 'index'])->name('index');
+Route::resource('/glow', GlowController::class);
 
 Route::get('/dashboard', function () {
     return view('dashboard');
