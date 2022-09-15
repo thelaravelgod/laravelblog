@@ -25,7 +25,7 @@
             </header>
 
             <!-- Page Content -->
-            <main>
+            <main>ooo
                 {{ $slot }}
             </main>
         </div>
