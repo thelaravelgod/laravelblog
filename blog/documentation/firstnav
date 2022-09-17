@@ -1,0 +1,12 @@
+FIRST NAVIGATION
+
+Brief
+*this is the very first navigation at the top of the website.
+
+Responsibilities
+*It is the navigation that connects the user to quick locations on the website
+*Locations like help, wish list, about the website, about the mobile app and a link to downloading the mobile app
+
+*the responsive design makes it possible for the navigation to look presentable in the mobile version of the website
+*in the mobile version the only thing missen is the link to the 'Buyer Protection' but it is added in the dropdown from the 'Help'
+*the dropdown was implemented with jquery

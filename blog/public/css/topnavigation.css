@@ -1,0 +1,68 @@
+/* wraps the entire div */
+.top-nav-wraps{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 1px solid rgba(169,169,169,0.4);
+    gap: 10px;
+    color: rgba(0,0,0,0.9);
+}
+
+/* wraps the items in the div */
+.top-nav-items{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 14px;
+}
+
+/* guyj */
+.top-nav-users, .top-nav-app-icon{
+    font-size: 12px;
+}
+
+.top-nav-wish-list-wraps{
+    border-left: 1px solid rgba(169,169,169,0.6);
+    padding-left: 10px;
+}
+
+.top-nav-inner-item{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.top-nav-items-help-group{
+    gap: 10px;
+    transition: 0.5s;
+}
+
+.hover-text{
+    cursor: pointer;
+}
+
+.hover-text:hover{
+    color: rgba(255,69,0,0.9);
+}
+
+.top-nav-help-group{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.top-nav-help-dropdown-wraps{
+    display: none;
+    position: absolute;
+    border: 1px solid dimgray;
+    background: white;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+/* responsive design */
+@media only screen and (max-width: 800px) {
+    .remove-for-mobile {
+        display: none;
+    }
+}

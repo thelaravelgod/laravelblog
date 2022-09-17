@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: rgba(169,169,169,0.2);
+    font-family: 'ABeeZee', sans-serif;
+}
+
+/* the global padding */
+.global-padding{
+    padding: 10px 200px;
+    transition: 1s;
+}
+
+/* responsive design */
+@media only screen and (max-width: 1300px) {
+    .global-padding {
+        padding: 10px 100px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .global-padding {
+        padding: 10px 50px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .global-padding {
+        padding: 10px 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .global-padding {
+        padding: 10px;
+    }
+}
