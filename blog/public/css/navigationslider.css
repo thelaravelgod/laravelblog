@@ -1,0 +1,26 @@
+.nav-slider-wraps{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    gap: 20px;
+}
+
+.nav-slider-navigation{
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgba(0,0,0,0.9);
+}
+
+.nav-slider-navigation-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+.nav-slider-icons{
+    width: 20px;
+    font-size: 14px;
+    text-align: center;
+}

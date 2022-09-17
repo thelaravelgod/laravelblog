@@ -75,6 +75,10 @@
     border: 0px;
 }
 
+.name-search-mobile{
+    display: none;
+}
+
 @media only screen and (max-width: 1300px) {
     .name-search-wraps {
         grid-template-columns: 25% 65% 5%;
@@ -94,5 +98,23 @@
 
     .name-search-wraps {
         grid-template-columns: 100%;
+    }
+
+    .name-search-mobile{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border-bottom: 1px solid rgba(169,169,169,0.4);
+        background: rgba(255,255,255,0.1);
+    }
+
+    .name-search-mobile-iconwraps{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .name-search-mobile-icons{
+        font-size: 20px;
     }
 }

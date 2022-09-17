@@ -1,4 +1,4 @@
 <x-app-layout>
-    <!-- top navigation -->
-    
+    <!-- navigation/slider -->
+    <x-navigation-slider />
 </x-app-layout>

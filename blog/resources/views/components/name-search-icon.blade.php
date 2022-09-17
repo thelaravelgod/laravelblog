@@ -1,3 +1,12 @@
+<div class="name-search-mobile global-padding">
+    <div><img src="{{ asset('images/logo.png') }}" width="70%" /></div>
+    <div class="name-search-mobile-iconwraps">
+        <i class="name-search-mobile-icons fa-regular fa-user"></i>
+        <i class="name-search-mobile-icons fa-solid fa-cart-shopping"></i>
+        <i class="name-search-mobile-icons fa-solid fa-bars"></i>
+    </div>
+</div>
+
 <div class="name-search-wraps global-padding">
     <div class="name-search-logo-wraps"><img src="{{ asset('images/logo.png') }}" width="100%" /></div>
     <div class="name-search-middle">
