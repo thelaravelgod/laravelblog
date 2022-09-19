@@ -11,6 +11,10 @@ body{
     transition: 1s;
 }
 
+.global-cursor{
+    cursor: pointer;
+}
+
 /* responsive design */
 @media only screen and (max-width: 1300px) {
     .global-padding {

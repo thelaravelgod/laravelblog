@@ -24,6 +24,7 @@
         <link rel="stylesheet" href="{{ URL::asset('css/namesearch.css') }}">
         <link rel="stylesheet" href="{{ URL::asset('css/navigationslider.css') }}">
         <link rel="stylesheet" href="{{ URL::asset('css/quicksearch.css') }}">
+        <link rel="stylesheet" href="{{ URL::asset('css/superdeals.css') }}">
     </head>
     <body>
         <!-- Page Content -->
