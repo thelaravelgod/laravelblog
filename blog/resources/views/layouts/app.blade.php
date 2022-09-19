@@ -23,6 +23,7 @@
         <link rel="stylesheet" href="{{ URL::asset('css/topnavigation.css') }}">
         <link rel="stylesheet" href="{{ URL::asset('css/namesearch.css') }}">
         <link rel="stylesheet" href="{{ URL::asset('css/navigationslider.css') }}">
+        <link rel="stylesheet" href="{{ URL::asset('css/quicksearch.css') }}">
     </head>
     <body>
         <!-- Page Content -->
