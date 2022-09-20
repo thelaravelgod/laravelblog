@@ -6,7 +6,7 @@
                     src='{{ asset("images/homepage/$image") }}'
                     width="
                         @if($image == 'superdeals.PNG')
-                            70%
+                            50%
                         @else
                             100%
                         @endif
