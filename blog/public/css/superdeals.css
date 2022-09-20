@@ -16,6 +16,7 @@
 
 .super-deals-header{
     display: grid;
+    align-items: center;
     grid-template-columns: 1fr 1fr;
 }
 
@@ -23,6 +24,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 10px;
+    transition: 1s;
 }
 
 .super-deals-slice-each{
@@ -63,4 +65,37 @@
 
 .super-deals-view-more{
     font-size: 13px;
+}
+
+.super-deals-header-hd-img{
+    width: 100%;
+}
+
+.super-deals-header-hd-img-superdeals{
+    width: 50%;
+}
+
+/* responsive design */
+@media only screen and (max-width: 1000px) {
+    .super-deals-slice {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+/* responsive design */
+@media only screen and (max-width: 800px) {
+    .super-deals-slice {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+/* responsive design */
+@media only screen and (max-width: 600px) {
+    .super-deals-header{
+        grid-template-columns: 4fr 1fr;
+    }
+
+    .super-deals-slice {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }

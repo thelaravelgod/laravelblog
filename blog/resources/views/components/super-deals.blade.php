@@ -2,7 +2,17 @@
     <div class="super-deals-wraps-inner">
         <div class="super-deals-header">
             <div>
-                <img src='{{ asset("images/homepage/$image") }}' alt="Zansi Logo">
+                <img
+                    src='{{ asset("images/homepage/$image") }}'
+                    width="
+                        @if($image == 'superdeals.PNG')
+                            70%
+                        @else
+                            100%
+                        @endif
+                    "
+                    alt="Zansi Logo"
+                >
             </div>
             <div class="super-deals-view-more"style="text-align: right;">VIEW MORE ></div>
         </div>

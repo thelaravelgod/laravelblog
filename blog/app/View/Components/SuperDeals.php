@@ -6,6 +6,43 @@ use Illuminate\View\Component;
 
 class SuperDeals extends Component
 {
+    public $image;
+    public $detailsImgA;
+    public $detailsPriceA;
+    public $detailsFormerPriceA;
+    public $detailsRemainingOrderCountA;
+    
+    public $detailsImgB;
+    public $detailsPriceB;
+    public $detailsFormerPriceB;
+    public $detailsRemainingOrderCountB;
+    
+    public $detailsImgC;
+    public $detailsPriceC;
+    public $detailsFormerPriceC;
+    public $detailsRemainingOrderCountC;
+    
+    public $detailsImgD;
+    public $detailsPriceD;
+    public $detailsFormerPriceD;
+    public $detailsRemainingOrderCountD;
+    
+    public $detailsImgE;
+    public $detailsPriceE;
+    public $detailsFormerPriceE;
+    public $detailsRemainingOrderCountE;
+    
+    public $detailsImgF;
+    public $detailsPriceF;
+    public $detailsFormerPriceF;
+    public $detailsRemainingOrderCountF;
+
+    public $detailsDifferenceA;
+    public $detailsDifferenceB;
+    public $detailsDifferenceC;
+    public $detailsDifferenceD;
+    public $detailsDifferenceE;
+    public $detailsDifferenceF;
     /**
      * Create a new component instance.
      *
