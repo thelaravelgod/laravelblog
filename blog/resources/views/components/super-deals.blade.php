@@ -2,17 +2,53 @@
     <div class="super-deals-wraps-inner">
         <div class="super-deals-header">
             <div>
-                <img src="{{ asset('images/homepage/superdeals.PNG') }}" alt="Zansi Logo">
+                <img src='{{ asset("images/homepage/$image") }}' alt="Zansi Logo">
             </div>
-            <div>b</div>
+            <div class="super-deals-view-more"style="text-align: right;">VIEW MORE ></div>
         </div>
         <div class="super-deals-slice">
-            <div>a</div>
-            <div>a</div>
-            <div>a</div>
-            <div>a</div>
-            <div>a</div>
-            <div>a</div>
+            <x-super-deals-each
+                eachImage="{{$detailsImgA}}"
+                eachNewPrice="{{$detailsPriceA}}"
+                eachOldPrice="{{$detailsFormerPriceA}}"
+                eachDifference="{{$detailsDifferenceA}}"
+                eachRemainingOrder="{{$detailsRemainingOrderCountA}}"
+            />
+            <x-super-deals-each
+                eachImage="{{$detailsImgB}}"
+                eachNewPrice="{{$detailsPriceB}}"
+                eachOldPrice="{{$detailsFormerPriceB}}"
+                eachDifference="{{$detailsDifferenceB}}"
+                eachRemainingOrder="{{$detailsRemainingOrderCountB}}"
+            />
+            <x-super-deals-each
+                eachImage="{{$detailsImgC}}"
+                eachNewPrice="{{$detailsPriceC}}"
+                eachOldPrice="{{$detailsFormerPriceC}}"
+                eachDifference="{{$detailsDifferenceC}}"
+                eachRemainingOrder="{{$detailsRemainingOrderCountC}}"
+            />
+            <x-super-deals-each
+                eachImage="{{$detailsImgD}}"
+                eachNewPrice="{{$detailsPriceD}}"
+                eachOldPrice="{{$detailsFormerPriceD}}"
+                eachDifference="{{$detailsDifferenceD}}"
+                eachRemainingOrder="{{$detailsRemainingOrderCountD}}"
+            />
+            <x-super-deals-each
+                eachImage="{{$detailsImgE}}"
+                eachNewPrice="{{$detailsPriceE}}"
+                eachOldPrice="{{$detailsFormerPriceE}}"
+                eachDifference="{{$detailsDifferenceE}}"
+                eachRemainingOrder="{{$detailsRemainingOrderCountE}}"
+            />
+            <x-super-deals-each
+                eachImage="{{$detailsImgF}}"
+                eachNewPrice="{{$detailsPriceF}}"
+                eachOldPrice="{{$detailsFormerPriceF}}"
+                eachDifference="{{$detailsDifferenceF}}"
+                eachRemainingOrder="{{$detailsRemainingOrderCountF}}"
+            />
         </div>
     </div>
 </div>

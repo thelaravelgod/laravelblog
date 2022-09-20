@@ -4,7 +4,14 @@
 
 .super-deals-wraps-inner{
     background: white;
+    box-shadow: -1px 3px 13px 3px rgba(166,166,166,0.75);
+    border-radius: 5px;
     padding: 10px;
+    transition: 1s;
+}
+
+.super-deals-wraps-inner:hover{
+    box-shadow: -1px 3px 13px 7px rgba(166,166,166,0.75);
 }
 
 .super-deals-header{
@@ -16,4 +23,44 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 10px;
+}
+
+.super-deals-slice-each{
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.super-deals-slice-each:hover{
+    border-radius: 5px;
+    border: 1px solid white;
+    box-shadow: -1px 3px 13px 3px rgba(166,166,166,0.75);
+}
+
+.super-deals-slice-each-img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.super-deals-slice-each-price{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.super-deals-slice-each-orders-left{
+    font-size: 14px;
+    color: dimgray;
+}
+
+.super-deals-slice-each-former-price{
+    color: dimgray;
+    text-decoration: line-through;
+}
+
+.super-deals-slice-each-decrease{
+    color: orangered;
+    font-size: 12px;
+}
+
+.super-deals-view-more{
+    font-size: 13px;
 }
