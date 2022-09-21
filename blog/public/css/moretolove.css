@@ -1,0 +1,73 @@
+.more-to-love-header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.more-to-love-slice{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    transition: 1s;
+}
+
+.more-to-love-each{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: white;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.more-to-love-each:hover{
+    box-shadow: -1px 3px 13px 3px rgba(166,166,166,0.75);
+    background: white;
+}
+
+.more-to-love-each-prod-image{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.more-to-love-each-prod-name{
+    padding: 5px;
+    font-size: 12px;
+}
+
+.more-to-love-each-prod-price-flex{
+    display: flex;
+    align-items: flex-end;
+    padding: 0px 5px;
+}
+
+.more-to-love-each-smalltext{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.more-to-love-each-bigtext{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* responsive design */
+@media only screen and (max-width: 1000px) {
+    .more-to-love-slice {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+/* responsive design */
+@media only screen and (max-width: 800px) {
+    .more-to-love-slice {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+/* responsive design */
+@media only screen and (max-width: 700px) {
+    .more-to-love-slice {
+        grid-template-columns: 1fr 1fr;
+    }
+}

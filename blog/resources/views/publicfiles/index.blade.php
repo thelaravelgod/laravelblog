@@ -113,6 +113,9 @@
     <!-- container for div containing top searchable items -->
     <!-- this will be divided into categories -->
     <x-quick-search />
+
+    <!-- this is to display a random selection of individual pages -->
+    <x-more-to-love />
     <!-- <div style="background: red;" class="global-padding">
         <div style="background: white;width: 100%;">j</div>
     </div> -->

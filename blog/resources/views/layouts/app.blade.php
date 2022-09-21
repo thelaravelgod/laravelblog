@@ -25,6 +25,7 @@
         <link rel="stylesheet" href="{{ URL::asset('css/navigationslider.css') }}">
         <link rel="stylesheet" href="{{ URL::asset('css/quicksearch.css') }}">
         <link rel="stylesheet" href="{{ URL::asset('css/superdeals.css') }}">
+        <link rel="stylesheet" href="{{ URL::asset('css/moretolove.css') }}">
     </head>
     <body>
         <!-- Page Content -->
